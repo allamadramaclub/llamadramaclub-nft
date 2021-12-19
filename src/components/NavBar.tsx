@@ -108,7 +108,7 @@ const NavBar = () => {
                     <a
                       href="https://discord.gg/pZbPMA3r"
                       target="_blank"
-                      className="nav-link ms-3 d-flex justify-content-center align-items-center text-white discord-btn"
+                      className="ms-3 d-flex justify-content-center align-items-center text-white discord-btn"
                     >
                       {" "}
                       Discord
