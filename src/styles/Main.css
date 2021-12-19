@@ -323,10 +323,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .footer-section span {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+.social-icons svg {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.social-icons svg:hover {
+  transform: translateY(-6px);
+  fill: rgba(255, 255, 255, 0.678);
+}
+
+.social-icons svg:hover path {
+  fill: rgba(255, 255, 255, 0.678);
 }
