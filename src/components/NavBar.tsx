@@ -3,12 +3,13 @@ import Button from "react-bootstrap/Button";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "../styles/navbar.css";
+import Logo from "../assets/headerLogo.png";
 //import react responsive
 import { useMediaQuery } from "react-responsive";
 //import logos
 import twitterLogo from "../assets/MdiTwitter.svg";
 import youtubeLogo from "../assets/MdiYoutube.svg";
-import logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
 
 const NavBar = () => {
   //Off canbas config
@@ -33,6 +34,7 @@ const NavBar = () => {
           <nav className="navbar navbar-expand-xl navbar-light text-white ">
             <div className="container-fluid">
               <a className="navbar-brand logo text-white" href="#">
+                <img src={Logo} alt="" className="me-3" />
                 llamadramaclub
               </a>
               <button
