@@ -1,0 +1,21 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap"); */
+
+@font-face {
+  font-family: gelatoFunFont;
+  src: url("./assets/Gelato/Gelato.ttf");
+}
+
+body {
+  /* margin: 0; */
+  /* font-family: "Orbitron", Arial, Helvetica, sans-serif; */
+  font-family: gelatoFunFont, Arial, Helvetica, sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: black;
+}
+
+#HomePage {
+  width: 100vw;
+  background-color: black;
+  font-family: gelatoFunFont;
+}

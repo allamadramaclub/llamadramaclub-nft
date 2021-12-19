@@ -1,0 +1,140 @@
+#landingPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#landingImageContainer {
+  width: 100%;
+  height: 40em;
+  background-color: black;
+  margin-top: 5em;
+}
+/* #landingContainer {
+  padding: 0;
+} */
+#landingImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: black;
+}
+#landingWelcomeGroup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 2em;
+  /* border: 2px solid white; */
+}
+/* #landingWelcomeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+#LandingFollows {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#followButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.followButton {
+  margin: 1em;
+}
+
+#twitterBtn {
+  width: 12em;
+  /* height: 4em; */
+  font-weight: 400;
+  background-color: #022446;
+  color: white;
+  padding: 0.5em;
+  font-size: 2em;
+}
+#discordBtn {
+  width: 12em;
+  /* height: 4em; */
+  font-weight: 400;
+  background-color: #022446;
+  color: white;
+  padding: 0.5em;
+  font-size: 2em;
+}
+.mint-container {
+  /* border: 2px solid white; */
+  /* background-color: #022446; */
+  color: white;
+  padding-top: 5em;
+  font-weight: 700;
+  width: 70%;
+  height: 50%;
+  /* margin-top: 3em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#connectButton {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc107;
+  font-weight: 400;
+  font-size: 2em;
+  width: 15em;
+  height: 4em;
+  font-family: gelatoFunFont; */
+  background: #ff6900 !important;
+  border-radius: 64px !important;
+  width: 289.85px !important;
+  height: 70.18px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 600 !important;
+  font-size: 28.4867px !important;
+  font-family: "Montserrat" !important;
+}
+#connectBtnText {
+  /* font-size: 2em; */
+  font-size: 28.4867px !important;
+}
+#mintingButton {
+  background-color: #ffc107;
+  width: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: black;
+  font-size: 2em;
+  border: 5px solid white;
+  margin-bottom: 2em;
+  font-family: gelatoFunFont;
+}
+.mintingTexts {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.welcomeTexts {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.linkButton {
+  text-decoration: none;
+  color: white;
+}

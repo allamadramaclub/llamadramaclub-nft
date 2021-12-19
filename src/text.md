@@ -1,0 +1,37 @@
+- Minting Section (Where the MINT button is): Thousands of loveable llamas from the
+- llamadramaclub
+- are joining the NFT world January 2022. (Link to follow twitter, Facebook, Insta)
+- llamadramaclub
+- was created by a group of creatives with a passion for music,
+- theater
+- and animation. It is our goal to spearhead projects of various genres and collab with our favorite artist who dabbling in art, short film animation and gaming.
+
+- Roadmap
+- resale
+- Collectors will be able to grab llamas at a special discounted price with no mint limit.
+- 5,000 llamas will be released.
+- Launch day
+- If you missed out on the presale, don’t worry!
+- 5,000 more llamas will be released on launch day.
+- Videogame drop
+- At 75%, we plan on launching development of our game world. We cannot express enough how diverse our game launches will be. Our goal is to create something for everyone to enjoy every quarter. NFT holders will instantly gain freebies in games once launched.
+- Animated short films
+- We aren’t called the drama club for nothing.
+- Llamadramaclub
+- plans on entertaining you with animated shorts that will make you laugh,
+- and hopefully leave you wanting more. NFT holders will gain early access to each episode before
+- general public
+- Tesla Giveaway
+- That’s right! At 100% We will be giving away a Tesla!
+- Follow Twitter, FB, Insta
+  ## faq
+  - FAQs:
+  - How do I get an NFT?
+  - Stay updated on all social media accounts. Presale and live mint details will be announced with direct link to the action.
+  - When will the llamas be available?
+  - January 2022
+  - How many NFTs can I buy?
+- There is no limit. We believe that our mission will attract the kind of investors that want to double down on us. Our goal is to show investors they made the right choice
+- Why Sol?
+- Simple… Value. LDC is a project that will kick butt in the video game, art, and animation realms. The fractional gas fees allow us to give you more value for your investment.
+-

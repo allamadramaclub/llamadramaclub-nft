@@ -1,0 +1,29 @@
+#signUpDiv {
+  height: 50%;
+  width: 100vw;
+  background-color: black;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#signupForm {
+  display: flex;
+}
+.signupItem {
+  margin: 0.5em;
+  margin-bottom: 5em;
+}
+#signupBtn {
+  width: 7em;
+}
+#signupTitle {
+  font-weight: 100;
+  font-size: 4em;
+}
+.signupText {
+  font-weight: 100;
+  font-size: 1.5em;
+  padding: 1em;
+}

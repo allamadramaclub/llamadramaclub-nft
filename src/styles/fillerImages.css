@@ -1,0 +1,18 @@
+#fillerDiv {
+  width: 100vw;
+  height: 100%;
+  border: 2px solid red;
+}
+
+.fillerImageContainer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin: 0;
+}
+.fillerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border: 2px solid blue;
+}
