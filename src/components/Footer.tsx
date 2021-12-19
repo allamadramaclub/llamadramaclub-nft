@@ -1,20 +1,26 @@
-import React from "react";
 import { DiscordIcon, TwitterIcon, YoutubeIcon } from "./Icons";
 
 const Footer = () => {
   return (
     <>
       <div className="footer-section">
-        <div className="d-flex">
-          <span>
+        <div className="d-flex social-icons">
+          <a
+            target="_blank"
+            href="https://www.youtube.com/channel/UCWbjIu44mFe536Mf76jGjlg"
+          >
             <YoutubeIcon />
-          </span>
-          <span className="mx-3 mx-sm-4">
+          </a>
+          <a
+            target="_blank"
+            href="https://discord.com/invite/Rn7HRHXKzR"
+            className="mx-3 mx-sm-4"
+          >
             <DiscordIcon />
-          </span>
-          <span>
+          </a>
+          <a target="_blank" href="https://twitter.com/llamadramaclub">
             <TwitterIcon />
-          </span>
+          </a>
         </div>
 
         <span className="pt-4">llamadramaclub © 2021</span>

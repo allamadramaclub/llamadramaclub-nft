@@ -22,6 +22,15 @@
   --fw-medium: 500;
   --fw-semibold: 600;
 }
+
+@media (max-width: 575.98px) {
+  :root {
+    --fs-lg: 26px;
+    --fs-xl: 34px;
+    --fs-xxl: 40px;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif !important;
   background-color: var(--black) !important;
@@ -109,6 +118,15 @@ body {
 
   color: #ffffff;
 }
+@media (max-width: 421px) {
+  .logo img {
+    height: 40px;
+    width: 40px;
+  }
+  .logo {
+    font-size: 20px !important;
+  }
+}
 .club-header .nav-item .nav-link {
   font-size: 20px;
   line-height: 20px;
@@ -154,7 +172,14 @@ body {
 }
 
 /*-------- ROADMAP SECTION STYLE --------*/
-
+#roadmapComponent {
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  #roadmapComponent {
+    padding-bottom: 230px !important;
+  }
+}
 .roadmap-section h3 {
   font-weight: 600;
   font-size: 30px;
@@ -251,9 +276,9 @@ body {
 }
 
 /*------------ OUR TEAM STYLE  -----------*/
-.our-team-section {
+/* .our-team-section {
   padding-top: 230px;
-}
+} */
 .our-team-section p {
   font-weight: normal;
   font-size: 18px;
@@ -323,12 +348,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .footer-section span {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+.social-icons svg {
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 @media (max-width: 576px) {
@@ -339,4 +369,12 @@ body {
     --fs-xl: 34px;
     --fs-xxl: 40px;
   }
+}
+.social-icons svg:hover {
+  transform: translateY(-6px);
+  fill: rgba(255, 255, 255, 0.678);
+}
+
+.social-icons svg:hover path {
+  fill: rgba(255, 255, 255, 0.678);
 }

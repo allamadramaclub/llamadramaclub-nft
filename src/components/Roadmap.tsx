@@ -8,7 +8,7 @@ const Roadmap = () => {
     <>
       <section
         id="roadmapComponent"
-        className="roadmap-section position-relative  py-5"
+        className="roadmap-section  position-relative  py-5"
       >
         <div className="roadmap-leaves-image"></div>
         <div className="container pt-4 z-1 position-relative">
@@ -66,7 +66,7 @@ const Roadmap = () => {
             </div>
           </div>
           <img
-            className="samuray-roadmap-img"
+            className="samuray-roadmap-img d-none d-lg-block"
             src={samurayImage}
             alt="samurayImage"
           />

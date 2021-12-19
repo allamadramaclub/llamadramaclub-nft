@@ -34,7 +34,7 @@ const NavBar = () => {
           <nav className="navbar navbar-expand-xl navbar-light text-white ">
             <div className="container-fluid">
               <a className="navbar-brand logo text-white" href="#">
-                <img src={Logo} alt="" className="me-3" />
+                <img src={Logo} alt="" className="me-sm-3 me-1" />
                 llamadramaclub
               </a>
               <button

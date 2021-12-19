@@ -178,11 +178,11 @@ const Home = (props: HomeProps) => {
     <main>
       <div id="landingPage" className="py-5 mb-5">
         <Container id="landingContainer">
-          <Row>
+          <Row className="justify-content-between align-items-center">
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
               <div
                 className="d-flex flex-column align-items-center align-items-lg-start"
-                id="landingImageContainer"
+                id=""
               >
                 {/* <iframe
                   title="video"

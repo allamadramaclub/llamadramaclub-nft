@@ -1,11 +1,9 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/faq.css";
 
 const FAQ = () => {
   return (
     <>
-      <section className="faq-section mt-5 pt-5">
+      <section className="faq-section mt-5 py-5">
         <div className="container ">
           <h1 className="text-center text-center text-white fs-xxl fs-normal">
             FAQs
