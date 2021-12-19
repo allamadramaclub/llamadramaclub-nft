@@ -2,6 +2,18 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/roadmap.css";
 import samurayImage from "../assets/samuray-image.png";
+import Leave1 from "../assets/leaves-img/leave-1.png";
+import Leave2 from "../assets/leaves-img/leave-2.png";
+import Leave3 from "../assets/leaves-img/leave-3.png";
+import Leave4 from "../assets/leaves-img/leave-4.png";
+import Leave5 from "../assets/leaves-img/leave-5.png";
+import Leave6 from "../assets/leaves-img/leave-6.png";
+import Leave7 from "../assets/leaves-img/leave-7.png";
+import Leave8 from "../assets/leaves-img/leave-8.png";
+import Leave9 from "../assets/leaves-img/leave-9.png";
+import Leave10 from "../assets/leaves-img/leave-10.png";
+import Leave11 from "../assets/leaves-img/leave-11.png";
+import Leave12 from "../assets/leaves-img/leave-12.png";
 
 const Roadmap = () => {
   return (
@@ -10,7 +22,44 @@ const Roadmap = () => {
         id="roadmap"
         className="roadmap-section  position-relative  py-4 py-sm-5"
       >
-        <div className="roadmap-leaves-image"></div>
+        {/* <div className="roadmap-leaves-image"></div> */}
+        <span className="leaves-child d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>
+        <span className="leaves-child d-none d-lg-block">
+          <img src={Leave2} alt="Leave2" />
+        </span>
+        <span className="leaves-child d-none d-sm-block">
+          <img src={Leave3} alt="Leave3" />
+        </span>
+        <span className="leaves-child d-none d-md-block">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave5} alt="Leave5" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave6} alt="Leave6" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave7} alt="Leave7" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave8} alt="Leave8" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave9} alt="Leave9" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave10} alt="Leave10" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave11} alt="Leave11" />
+        </span>
+        <span className="leaves-child">
+          <img src={Leave12} alt="Leave12" />
+        </span>
+
         <div className="container pt-4 z-1 position-relative">
           <h1 className="text-center text-white fs-xxl fs-normal">Roadmap</h1>
           <div className="row  pt-5">
