@@ -22,7 +22,7 @@ const OurTeam = () => {
             </div>
           </div>
 
-          <div className="row py-5">
+          <div className="row py-4 py-sm-5">
             <div className="col-12 col-md-6">
               <div className="team-card">
                 <img src={dozerImage} alt="dozerImage" />
@@ -31,7 +31,7 @@ const OurTeam = () => {
               </div>
             </div>
 
-            <div className="col-12 col-md-6 py-3 my-sm-0">
+            <div className="col-12 col-md-6 pt-4 pt-sm-0">
               <div className="team-card">
                 <img src={rynImage} alt="rynImage" />
 

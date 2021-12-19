@@ -1,17 +1,18 @@
 import "../styles/faq.css";
-
+import CirclImage from "../assets/2-round-circles.png";
 const FAQ = () => {
   return (
     <>
-      <section className="faq-section mt-5 py-5">
+      <section className="faq-section mt-0 mt-sm-5 py-5 position-relative">
+        <img className="circle-img" src={CirclImage} alt="CirclImage" />
         <div className="container ">
           <h1 className="text-center text-center text-white fs-xxl fs-normal">
             FAQs
           </h1>
-          <div className="row mt-5 pt-4">
+          <div className="row mt-5 pt-0 pt-sm-4">
             {" "}
-            <div className="col-3 mb-5 col-12 col-md-6 col-xl-3">
-              <div className="">
+            <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
+              <div>
                 <h4>How do I get an NFT?</h4>
                 <p>
                   Stay updated on all social media accounts. Whitelist and live
@@ -19,15 +20,15 @@ const FAQ = () => {
                 </p>
               </div>
             </div>
-            <div className="col-3 mb-5 col-12 col-md-6 col-xl-3">
-              <div className="">
+            <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
+              <div>
                 <h4>When will the llamas be available?</h4>
                 <p>January 2022</p>
               </div>
             </div>
-            <div className="col-3 mb-5 col-12 col-md-6 col-xl-3">
+            <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
               {" "}
-              <div className="">
+              <div>
                 <h4>How many NFTs can I buy?</h4>
                 <p>
                   There is no limit during live mint. We believe that our
@@ -37,9 +38,9 @@ const FAQ = () => {
                 </p>
               </div>
             </div>
-            <div className="col-3 mb-5 col-12 col-md-6 col-xl-3">
+            <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
               {" "}
-              <div className="">
+              <div>
                 <h4>Why Sol?</h4>
                 <p>
                   Simple… Value. LDC is a project that will kick butt in the

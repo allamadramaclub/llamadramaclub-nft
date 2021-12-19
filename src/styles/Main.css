@@ -144,6 +144,32 @@ body {
   font-weight: 600;
   font-size: 25px;
 }
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  padding: 0 !important;
+}
+.menu-toggle:focus {
+  outline: none;
+  box-shadow: unset !important;
+}
+
+.menu-toggle span {
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+.menu-toggle .second {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 
 /* HERO SECTION STYLE  */
 
@@ -172,24 +198,24 @@ body {
 }
 
 /*-------- ROADMAP SECTION STYLE --------*/
-#roadmapComponent {
+#roadmap {
   overflow: hidden;
 }
 @media (min-width: 992px) {
-  #roadmapComponent {
+  #roadmap {
     padding-bottom: 230px !important;
   }
 }
 .roadmap-section h3 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: var(--fs-lg);
   line-height: 131.4%;
   color: var(--white);
 }
 
 .roadmap-section p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: var(--fs-md);
   line-height: 24px;
   color: var(--grey-900);
 }
@@ -281,7 +307,7 @@ body {
 } */
 .our-team-section p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: var(--fs-md);
   line-height: 24px;
   color: var(--grey-900);
 }
@@ -334,6 +360,11 @@ body {
   color: var(--grey-900);
 }
 
+.circle-img {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
 /* FOOTER STYLE  */
 
 .footer-section {
@@ -352,13 +383,22 @@ body {
 }
 .footer-section span {
   font-weight: 600;
-  font-size: 16px;
+  font-size: var(--fs-sm);
   line-height: 20px;
   color: #ffffff;
 }
 .social-icons svg {
   cursor: pointer;
   transition: 0.3s ease;
+}
+
+.social-icons svg:hover {
+  transform: translateY(-6px);
+  fill: rgba(255, 255, 255, 0.678);
+}
+
+.social-icons svg:hover path {
+  fill: rgba(255, 255, 255, 0.678);
 }
 
 @media (max-width: 576px) {
@@ -369,12 +409,4 @@ body {
     --fs-xl: 34px;
     --fs-xxl: 40px;
   }
-}
-.social-icons svg:hover {
-  transform: translateY(-6px);
-  fill: rgba(255, 255, 255, 0.678);
-}
-
-.social-icons svg:hover path {
-  fill: rgba(255, 255, 255, 0.678);
 }

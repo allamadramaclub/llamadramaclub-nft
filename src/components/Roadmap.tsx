@@ -7,8 +7,8 @@ const Roadmap = () => {
   return (
     <>
       <section
-        id="roadmapComponent"
-        className="roadmap-section  position-relative  py-5"
+        id="roadmap"
+        className="roadmap-section  position-relative  py-4 py-sm-5"
       >
         <div className="roadmap-leaves-image"></div>
         <div className="container pt-4 z-1 position-relative">

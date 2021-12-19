@@ -37,7 +37,7 @@ const NavBar = () => {
                 <img src={Logo} alt="" className="me-sm-3 me-1" />
                 llamadramaclub
               </a>
-              <button
+              {/* <button
                 className="navbar-toggler bg-white"
                 type="button"
                 data-bs-toggle="collapse"
@@ -47,6 +47,19 @@ const NavBar = () => {
                 aria-label="Toggle navigation"
               >
                 <span className="navbar-toggler-icon"></span>
+              </button> */}
+              <button
+                className="menu-toggle navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span></span>
+                <span className="second"></span>
+                <span></span>
               </button>
               <div
                 className="collapse navbar-collapse"
@@ -69,7 +82,7 @@ const NavBar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <a href="#roadmapComponent" className="nav-link text-white">
+                    <a href="#roadmap" className="nav-link text-white">
                       Roadmap
                     </a>
                   </li>
