@@ -260,3 +260,51 @@ body {
   line-height: 24px;
   color: var(--grey-900);
 }
+.team-card {
+  transition: 0.3s ease;
+}
+.team-card button {
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(
+    92.4deg,
+    rgba(255, 255, 255, 0.48) -0.65%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 131.4%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-card img {
+  width: 100%;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+.team-card button:hover {
+  background: linear-gradient(
+    92.4deg,
+    rgba(255, 255, 255, 0.384) -0.42%,
+    rgba(255, 255, 255, 0) 90%
+  );
+}
+
+/* FAQ SECTION STYLES  */
+.faq-section h4 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+.faq-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--fs-md);
+  line-height: 29px;
+  color: var(--grey-900);
+}
