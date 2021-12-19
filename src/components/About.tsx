@@ -4,7 +4,7 @@ import AboutImg from "../assets/aboutMint.png";
 const About = () => {
   return (
     <>
-      <section>
+      <section id="about-section">
         <div className="container">
           <div className="d-flex justify-content-between about-us-layout gx-5 flex-lg-row flex-column align-items-center">
             <div className=" mb-5">

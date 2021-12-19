@@ -63,23 +63,31 @@ const NavBar = () => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white" href="#">
+                    <a className="nav-link text-white" href="#about-section">
                       About
                     </a>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link text-white" href="#">
+                    <a href="#roadmapComponent" className="nav-link text-white">
                       Roadmap
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white" href="#">
+                    <a
+                      className="nav-link text-white"
+                      href="https://twitter.com/llamadramaclub"
+                      target="_blank"
+                    >
                       Twitter
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white" href="#">
+                    <a
+                      className="nav-link text-white"
+                      href="https://www.youtube.com/channel/UCWbjIu44mFe536Mf76jGjlg"
+                      target="_blank"
+                    >
                       Youtube
                     </a>
                   </li>

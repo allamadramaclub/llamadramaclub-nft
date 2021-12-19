@@ -6,7 +6,10 @@ import samurayImage from "../assets/samuray-image.png";
 const Roadmap = () => {
   return (
     <>
-      <section className="roadmap-section position-relative  py-5">
+      <section
+        id="roadmapComponent"
+        className="roadmap-section position-relative  py-5"
+      >
         <div className="roadmap-leaves-image"></div>
         <div className="container pt-4 z-1 position-relative">
           <h1 className="text-center text-white fs-xxl fs-normal">Roadmap</h1>
