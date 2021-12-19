@@ -91,7 +91,7 @@ const NavBar = () => {
                       Youtube
                     </a>
                   </li>
-                  <li className=" nav-item">
+                  <li className=" nav-item mt-3 mt-xl-0">
                     <a
                       href="https://discord.gg/pZbPMA3r"
                       target="_blank"
