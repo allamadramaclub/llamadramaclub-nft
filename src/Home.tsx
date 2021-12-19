@@ -176,7 +176,7 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      <div id="landingPage" className="py-5 mb-5">
+      <div id="landingPage" className="py-4 py-sm-5 mb-5">
         <Container id="landingContainer">
           <Row className="justify-content-between align-items-center">
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>

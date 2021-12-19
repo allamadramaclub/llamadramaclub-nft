@@ -7,12 +7,12 @@ const About = () => {
       <section id="about-section">
         <div className="container">
           <div className="d-flex justify-content-between about-us-layout gx-5 flex-lg-row flex-column align-items-center">
-            <div className=" mb-5">
+            <div className=" mb-4 mb-sm-5">
               <div className="aboutLeft">
                 <img src={AboutImg} alt="" className="w-100" />
               </div>
             </div>
-            <div className=" mb-5">
+            <div className=" mb-4 mb-sm-5">
               <div className="aboutRight">
                 <small className="text-orange-800">About Us</small>
                 <h1 className="text-white fs-xxl  text-white">
