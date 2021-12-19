@@ -30,7 +30,7 @@ const NavBar = () => {
     <>
       <section className="bg-black-600 py-3 club-header">
         <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light text-white ">
+          <nav className="navbar navbar-expand-xl navbar-light text-white ">
             <div className="container-fluid">
               <a className="navbar-brand logo text-white" href="#">
                 llamadramaclub
@@ -50,7 +50,7 @@ const NavBar = () => {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav align-items-lg-center ms-auto mb-2 mb-lg-0">
+                <ul className="navbar-nav align-items-xl-center ms-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <a
                       className="nav-link active text-white"

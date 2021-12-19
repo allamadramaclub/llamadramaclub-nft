@@ -104,15 +104,15 @@ body {
 /*=============== HEADER STYLE ================*/
 .logo {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 35px !important;
   line-height: 43px;
 
   color: #ffffff;
 }
 .club-header .nav-item .nav-link {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
-  padding: 8px 12px;
+  padding: 16px 20px !important;
 }
 .club-header .nav-item .nav-link.active {
   font-weight: 600;
@@ -151,4 +151,20 @@ body {
 
 .about-us-layout {
   grid-gap: 30px;
+}
+
+/*-------- ROADMAP SECTION STYLE --------*/
+
+.roadmap-section h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 131.4%;
+  color: var(--white);
+}
+
+.roadmap-section p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--grey-900);
 }
