@@ -22,6 +22,15 @@
   --fw-medium: 500;
   --fw-semibold: 600;
 }
+
+@media (max-width: 575.98px) {
+  :root {
+    --fs-lg: 26px;
+    --fs-xl: 34px;
+    --fs-xxl: 40px;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif !important;
   background-color: var(--black) !important;
@@ -343,14 +352,4 @@ body {
 
 .social-icons svg:hover path {
   fill: rgba(255, 255, 255, 0.678);
-}
-@media (max-width: 576px) {
-  :root {
-    /*=========== TYPOGRAPHY ROOTS CSS =========*/
-    /*------ FONT SIZE -----*/
-
-    --fs-lg: 26px;
-    --fs-xl: 34px;
-    --fs-xxl: 40px;
-  }
 }

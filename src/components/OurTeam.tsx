@@ -9,7 +9,7 @@ const OurTeam = () => {
           <div className="row">
             <div className="col-12 col-md-11 d-flex justify-content-center align-items-center flex-column  text-center">
               <h1 className="text-center text-white fs-xxl fs-normal">
-                Roadmap
+                Our Team
               </h1>
 
               <p>
