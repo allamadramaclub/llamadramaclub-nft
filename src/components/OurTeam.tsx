@@ -7,7 +7,7 @@ const OurTeam = () => {
       <div className="our-team-section ">
         <div className="container">
           <div className="row">
-            <div className="col-11 d-flex justify-content-center align-items-center flex-column  text-center">
+            <div className="col-12 col-md-11 d-flex justify-content-center align-items-center flex-column  text-center">
               <h1 className="text-center text-white fs-xxl fs-normal">
                 Roadmap
               </h1>
