@@ -1,55 +1,72 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/roadmap.css";
+import samurayImage from "../assets/samuray-image.png";
 
 const Roadmap = () => {
   return (
     <>
-      <section className="roadmap-section py-5">
-        <div className="container pt-4">
+      <section className="roadmap-section position-relative  py-5">
+        <div className="roadmap-leaves-image"></div>
+        <div className="container pt-4 z-1 position-relative">
           <h1 className="text-center text-white fs-xxl fs-normal">Roadmap</h1>
-          <div className="row pt-5">
-            <div className="col-4 mb-5">
+          <div className="row  pt-5">
+            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <h3>Whitelist</h3>
-              <p>
+              <p className="max-w-246">
                 250 collectors will be able to grab llamas at a special
                 discounted price with 10 Mint limit. 2,500 llamas will be
                 released.
               </p>
             </div>
-            <div className="col-4 mb-5">
-              <h3>Live Mint</h3>
-              <p>
-                If you missed out on the whitelist, don’t worry! 7,000 more
-                llamas will be released on launch day.
-              </p>
+            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+              <div>
+                <h3>Live Mint</h3>
+                <p className="max-w-200">
+                  If you missed out on the whitelist, don’t worry! 7,000 more
+                  llamas will be released on launch day.
+                </p>
+              </div>
             </div>
-            <div className="col-4 mb-5">
-              <h3>Games, Games, Games!!!!</h3>
-              <p>
-                At 75%, we plan on launching development of our game world. We
-                cannot express enough how diverse oour game launches will be.
-                Our goal is to create something for everyone to enjoy every
-                quarter. NFT holders will instantly gain freebies in games once
-                launched.
-              </p>
-            </div>
-
-            <div className="col-4 mb-5">
-              <h3>Animated short films</h3>
-              <p>
-                We aren’t called the drama club for nothing. Llamadramaclub
-                plans on entertaining you with animated shorts that will make
-                you laugh, and hopefully leave you wanting more. NFT holders
-                will gain early access to each episode before general public.
-              </p>
+            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+              <div>
+                <h3>Games, Games, Games!!!!</h3>
+                <p className="max-w-289">
+                  At 75%, we plan on launching development of our game world. We
+                  cannot express enough how diverse oour game launches will be.
+                  Our goal is to create something for everyone to enjoy every
+                  quarter. NFT holders will instantly gain freebies in games
+                  once launched.
+                </p>
+              </div>
             </div>
 
-            <div className="col-4 mb-5">
-              <h3>TESLA GIVEAWAY!!!!!</h3>
-              <p>That’s right! At 100% We will be giving away a Tesla!</p>
+            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+              <div>
+                <h3>Animated short films</h3>
+                <p className="max-w-281">
+                  We aren’t called the drama club for nothing. Llamadramaclub
+                  plans on entertaining you with animated shorts that will make
+                  you laugh, and hopefully leave you wanting more. NFT holders
+                  will gain early access to each episode before general public.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+              <div>
+                <h3>TESLA GIVEAWAY!!!!!</h3>
+                <p className="max-w-200">
+                  That’s right! At 100% We will be giving away a Tesla!
+                </p>
+              </div>
             </div>
           </div>
+          <img
+            className="samuray-roadmap-img"
+            src={samurayImage}
+            alt="samurayImage"
+          />
         </div>
       </section>
     </>

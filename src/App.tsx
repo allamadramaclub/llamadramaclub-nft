@@ -142,16 +142,16 @@ const App = () => {
       {/* <MiddlePart /> */}
       <Roadmap />
 
-      <Examples
+      {/* <Examples
         firstPicture={seventhPic}
         secondPicture={eighthPic}
         thirdPicture={ninthPic}
         fourthPicture={tenthPic}
         fifthPicture={eleventhPic}
         sixthPicture={twelvethPic}
-      />
+      /> */}
       {/* <FillerImages /> */}
-      <FAQ />
+      {/* <FAQ /> */}
       {/* <Creator /> */}
       {/* <Signup /> */}
       {/* <FillerImages /> */}
