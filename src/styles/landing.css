@@ -91,6 +91,7 @@
 #connectButton {
   /* display: flex;
   justify-content: center;
+
   align-items: center;
   background-color: #ffc107;
   font-weight: 400;
@@ -98,6 +99,8 @@
   width: 15em;
   height: 4em;
   font-family: gelatoFunFont; */
+  transition: 0.3s ease;
+  border: 2px solid #ff6900;
   background: #ff6900 !important;
   border-radius: 64px !important;
   width: 289.85px !important;
@@ -108,6 +111,10 @@
   font-weight: 600 !important;
   font-size: 28.4867px !important;
   font-family: "Montserrat" !important;
+}
+
+#connectButton:hover {
+  background: transparent !important;
 }
 #connectBtnText {
   /* font-size: 2em; */
