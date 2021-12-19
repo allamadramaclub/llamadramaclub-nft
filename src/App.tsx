@@ -151,7 +151,7 @@ const App = () => {
         sixthPicture={twelvethPic}
       /> */}
       {/* <FillerImages /> */}
-      {/* <FAQ /> */}
+      <FAQ />
       {/* <Creator /> */}
       {/* <Signup /> */}
       {/* <FillerImages /> */}
