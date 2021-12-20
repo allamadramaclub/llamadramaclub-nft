@@ -3,7 +3,10 @@ import CirclImage from "../assets/2-round-circles.png";
 const FAQ = () => {
   return (
     <>
-      <section className="faq-section mt-0 mt-sm-5 py-5 position-relative">
+      <section
+        id="faq-section"
+        className="faq-section mt-0 mt-sm-5 py-5 position-relative"
+      >
         <img className="circle-img" src={CirclImage} alt="CirclImage" />
         <div className="container ">
           <h1 className="text-center text-center text-white fs-xxl fs-normal">

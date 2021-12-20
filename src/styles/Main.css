@@ -211,6 +211,10 @@ body {
   width: 100%;
 }
 
+.flip-horizontal {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 /*----------- ABOUT STYLES ---------*/
 .aboutLeft {
   max-width: 600px;

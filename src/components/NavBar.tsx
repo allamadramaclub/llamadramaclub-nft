@@ -75,15 +75,15 @@ const NavBar = () => {
                       Home
                     </a>
                   </li>
-                  {/* <li className="nav-item">
-                    <a className="nav-link text-white" href="#about-section">
-                      About
-                    </a>
-                  </li> */}
 
                   <li className="nav-item">
                     <a href="#roadmap" className="nav-link text-white">
                       Roadmap
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link text-white" href="#faq-section">
+                      FAQ
                     </a>
                   </li>
                   <li className="nav-item">

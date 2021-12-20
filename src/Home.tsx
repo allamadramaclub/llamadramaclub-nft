@@ -215,7 +215,11 @@ const Home = (props: HomeProps) => {
                   are joining the NFT world January 2022.
                 </h2> */}
                 <div className="rightHero d-flex flex-column justify-content-center align-items-center">
-                  <img src={WalletImg} className="w-100" alt="" />
+                  <img
+                    src={MainImage}
+                    className="w-100 flip-horizontal"
+                    alt=""
+                  />
 
                   {/* </div> */}
                   {/* minting starts here */}
