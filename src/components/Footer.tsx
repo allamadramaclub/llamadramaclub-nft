@@ -1,5 +1,6 @@
 import { DiscordIcon, TwitterIcon, YoutubeIcon } from "./Icons";
 
+
 const Footer = () => {
   return (
     <>
