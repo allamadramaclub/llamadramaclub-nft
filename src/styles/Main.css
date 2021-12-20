@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 450px) {
   .logo img {
-    /* height: 40px; */  
+    /* height: 40px; */
     width: 200px;
   }
 
@@ -161,7 +161,7 @@ body {
 }
 
 .nav-item::marker {
-  color: none;
+  color: transparent;
 }
 
 .club-header .nav-item .nav-link {

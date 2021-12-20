@@ -10,7 +10,7 @@ const WelcomePage = () => {
         <ul className="welcome-page-links d-flex align-items-center justify-content-end pt-2">
           <li className=" nav-item">
             <a
-              href="https://discord.gg/pZbPMA3r"
+              href="https://discord.com/invite/sKqHppcsXz"
               target="_blank"
               className="nav-link text-white"
             >
@@ -43,7 +43,7 @@ const WelcomePage = () => {
           <div className="col-12 px-0 px-sm-3">
             <div className="welcome-page">
               <div className="d-flex justify-content-center">
-                <img src={Logo} alt="Logo" className="me-sm-3 me-1" />
+                <a href="https://llamadramaclub.com"><img src={Logo} alt="Logo" className="me-sm-3 me-1" /></a>
               </div>
 
               <div className="col-12 col-lg-6 h-100">
