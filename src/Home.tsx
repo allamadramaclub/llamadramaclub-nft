@@ -189,7 +189,14 @@ const Home = (props: HomeProps) => {
                   id="landingImage"
                   src=" https://www.youtube.com/embed/l_1UmPnSEEs"
                 /> */}
-                <div className="leftHero">
+                <div className="leftHero position-relative d-flex flex-column justify-content-center align-items-center">
+                  <a
+                    href=" https://discord.gg/Rn7HRHXKzR"
+                    className=" position-absolute w-75 py-5"
+                    target="_blank"
+                  >
+                    <div className="py-5"></div>
+                  </a>
                   <img src={DiscordImg} className="w-100" alt="" />
                   <h1 className="fs-semibold text-white  fs-xl text-center ">
                     Letting the llamas loose January 2022!
