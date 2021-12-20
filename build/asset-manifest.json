@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.aaa33d32.chunk.css",
-    "main.js": "./static/js/main.a8145a91.chunk.js",
-    "main.js.map": "./static/js/main.a8145a91.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.0c4f2128.js",
-    "runtime-main.js.map": "./static/js/runtime-main.0c4f2128.js.map",
+    "main.css": "./static/css/main.9f12e229.chunk.css",
+    "main.js": "./static/js/main.7b85f328.chunk.js",
+    "main.js.map": "./static/js/main.7b85f328.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.9fca01eb.js",
+    "runtime-main.js.map": "./static/js/runtime-main.9fca01eb.js.map",
     "static/css/2.0a9ec390.chunk.css": "./static/css/2.0a9ec390.chunk.css",
-    "static/js/2.da5b15ff.chunk.js": "./static/js/2.da5b15ff.chunk.js",
-    "static/js/2.da5b15ff.chunk.js.map": "./static/js/2.da5b15ff.chunk.js.map",
-    "static/js/3.a86794dd.chunk.js": "./static/js/3.a86794dd.chunk.js",
-    "static/js/3.a86794dd.chunk.js.map": "./static/js/3.a86794dd.chunk.js.map",
+    "static/js/2.3846e32e.chunk.js": "./static/js/2.3846e32e.chunk.js",
+    "static/js/2.3846e32e.chunk.js.map": "./static/js/2.3846e32e.chunk.js.map",
+    "static/js/3.2e43215b.chunk.js": "./static/js/3.2e43215b.chunk.js",
+    "static/js/3.2e43215b.chunk.js.map": "./static/js/3.2e43215b.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.0a9ec390.chunk.css.map": "./static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.aaa33d32.chunk.css.map": "./static/css/main.aaa33d32.chunk.css.map",
-    "static/js/2.da5b15ff.chunk.js.LICENSE.txt": "./static/js/2.da5b15ff.chunk.js.LICENSE.txt",
+    "static/css/main.9f12e229.chunk.css.map": "./static/css/main.9f12e229.chunk.css.map",
+    "static/js/2.3846e32e.chunk.js.LICENSE.txt": "./static/js/2.3846e32e.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Gelato.5fd4bccb.ttf",
     "static/media/NFT1.609ed34a.png": "./static/media/NFT1.609ed34a.png",
     "static/media/NFT2.f688b94a.png": "./static/media/NFT2.f688b94a.png",
@@ -23,10 +23,10 @@
     "static/media/samuray-image.e23a9f8f.png": "./static/media/samuray-image.e23a9f8f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c4f2128.js",
+    "static/js/runtime-main.9fca01eb.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.da5b15ff.chunk.js",
-    "static/css/main.aaa33d32.chunk.css",
-    "static/js/main.a8145a91.chunk.js"
+    "static/js/2.3846e32e.chunk.js",
+    "static/css/main.9f12e229.chunk.css",
+    "static/js/main.7b85f328.chunk.js"
   ]
 }
