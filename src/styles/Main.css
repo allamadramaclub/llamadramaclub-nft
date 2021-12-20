@@ -597,9 +597,7 @@ body {
   justify-content: end;
   height: 82%;
 }
-.welcome-page-links .nav-link {
-  position: relative;
-}
+
 .welcome-page-links .nav-link:after {
   content: "";
   position: absolute;
@@ -613,6 +611,16 @@ body {
 
 .welcome-page-links .nav-link:hover::after {
   width: 100%;
+}
+
+.welcome-page-links .nav-item .nav-link {
+  position: relative;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
 @media (max-width: 575.98px) {
