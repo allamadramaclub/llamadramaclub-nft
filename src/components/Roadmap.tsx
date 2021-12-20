@@ -42,9 +42,9 @@ const Roadmap = () => {
           <span className="">
             <img src={Leave6} alt="Leave6" />
           </span>
-          <span className="">
+          {/* <span className="">
             <img src={Leave7} alt="Leave7" />
-          </span>
+          </span> */}
           <span className="">
             <img src={Leave8} alt="Leave8" />
           </span>
@@ -54,9 +54,9 @@ const Roadmap = () => {
           <span className="">
             <img src={Leave10} alt="Leave10" />
           </span>
-          <span className="">
+          {/* <span className="">
             <img src={Leave11} alt="Leave11" />
-          </span>
+          </span> */}
           <span className="">
             <img src={Leave12} alt="Leave12" />
           </span>

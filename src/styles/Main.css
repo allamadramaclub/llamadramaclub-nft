@@ -440,7 +440,7 @@ body {
   width: 75px;
 
   margin: -280px 40px 54px -34px;
-  animation: anim 10s infinite linear;
+  animation: anim 20s infinite linear;
 }
 .anim span:nth-child(7h) {
   animation-delay: 2.5s;

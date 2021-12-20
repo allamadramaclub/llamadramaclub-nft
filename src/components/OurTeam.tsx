@@ -22,18 +22,18 @@ const OurTeam = () => {
             </div>
           </div>
 
-          <div className="row py-4 py-sm-5">
-            <div className="col-12 col-md-6">
+          <div className="row justify-content-between py-4 py-sm-5">
+            <div className="col-12 col-md-5">
               <div className="team-card">
-                <img src={dozerImage} alt="dozerImage" />
+                <img className="w-100" src={dozerImage} alt="dozerImage" />
 
                 <button className="border-0 bg-transparent">Dozer</button>
               </div>
             </div>
 
-            <div className="col-12 col-md-6 pt-4 pt-sm-0">
+            <div className="col-12 col-md-5 pt-4 pt-sm-0">
               <div className="team-card">
-                <img src={rynImage} alt="rynImage" />
+                <img className="w-100" src={rynImage} alt="rynImage" />
 
                 <button className="border-0 bg-transparent">Ryn</button>
               </div>
