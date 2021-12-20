@@ -23,14 +23,6 @@
   --fw-semibold: 600;
 }
 
-@media (max-width: 575.98px) {
-  :root {
-    --fs-lg: 26px;
-    --fs-xl: 34px;
-    --fs-xxl: 40px;
-  }
-}
-
 body {
   font-family: "Montserrat", sans-serif !important;
   background-color: var(--black) !important;
@@ -449,9 +441,11 @@ body {
 
 .footer-section {
   height: 137px;
-  background: linear-gradient(92.4deg,
-      rgba(255, 255, 255, 0.48) -0.65%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    92.4deg,
+    rgba(255, 255, 255, 0.48) -0.65%,
+    rgba(255, 255, 255, 0) 100%
+  );
 
   display: flex;
   flex-direction: column;
@@ -552,8 +546,82 @@ body {
   :root {
     /*=========== TYPOGRAPHY ROOTS CSS =========*/
     /*------ FONT SIZE -----*/
-    --fs-lg: 26px;
-    --fs-xl: 34px;
-    --fs-xxl: 40px;
+    --fs-lg: 24px;
+    --fs-xl: 28px;
+    --fs-xxl: 30px;
+  }
+}
+
+/* WELCOME PAGE STYLE  */
+
+.welcome-page {
+  background-image: url("../assets/welcome-page-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.welcome-page h3 {
+  font-weight: 600;
+  font-size: var(--fs-lg);
+  line-height: 131.4%;
+  color: var(--white);
+}
+
+.welcome-page p {
+  font-weight: normal;
+  font-size: var(--fs-md);
+  color: var(--grey-900);
+  line-height: 39px;
+}
+
+.welcome-page button {
+  width: 199px;
+  height: 64px;
+  background: #ff6900;
+  border: 2px solid #ff6900;
+  color: white;
+  border-radius: 64px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  font-size: 28px;
+}
+.welcome-page button:hover {
+  background: transparent;
+  color: #ff6900;
+}
+.welcome-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 82%;
+}
+.welcome-page-links .nav-link {
+  position: relative;
+}
+.welcome-page-links .nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.welcome-page-links .nav-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .welcome-page button {
+    width: 160px;
+    height: 54px;
+    font-size: 24px;
+  }
+  .welcome-page p {
+    line-height: 26px;
   }
 }

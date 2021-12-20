@@ -5,10 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 //add bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
+import WelcomePage from "./WelcomePage";
+import "./styles/Main.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WelcomePage />
   </React.StrictMode>,
   document.getElementById("root")
 );

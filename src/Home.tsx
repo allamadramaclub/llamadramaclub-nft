@@ -5,7 +5,6 @@ import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 //my imports
 import "./styles/landing.css";
-import "./styles/Main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import MainImage from "./assets/13.png";
 import MainImage from "./assets/mainGif.gif";
