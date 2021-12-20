@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Logo from "./assets/logo.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const WelcomePage = () => {
   return (
@@ -58,9 +58,7 @@ const WelcomePage = () => {
                     access to the game world with freebies and early access to
                     animated short films.
                   </p>
-                  {/* <Link> */}
-                  <button className="btn">Enter </button>
-                  {/* </Link> */}
+                  <Link to={`/home`}>Enter</Link>
                 </div>
               </div>
             </div>

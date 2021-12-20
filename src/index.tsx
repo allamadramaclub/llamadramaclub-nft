@@ -7,10 +7,11 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import WelcomePage from "./WelcomePage";
 import "./styles/Main.css";
+import AppRoutes from "./AppRoutes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <WelcomePage />
+    <AppRoutes />
   </React.StrictMode>,
   document.getElementById("root")
 );

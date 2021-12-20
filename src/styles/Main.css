@@ -576,7 +576,7 @@ body {
   line-height: 39px;
 }
 
-.welcome-page button {
+.welcome-page a {
   width: 199px;
   height: 64px;
   background: #ff6900;
@@ -586,8 +586,12 @@ body {
   font-weight: 600;
   transition: 0.3s ease;
   font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
-.welcome-page button:hover {
+.welcome-page a:hover {
   background: transparent;
   color: #ff6900;
 }
@@ -624,7 +628,7 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .welcome-page button {
+  .welcome-page a {
     width: 160px;
     height: 54px;
     font-size: 24px;
