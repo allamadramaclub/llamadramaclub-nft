@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
-            href="https://discord.gg/Rn7HRHXKzR"
+            href="http://discord.gg/sKqHppcsXz"
             className="mx-3 mx-sm-4"
           >
             <DiscordIcon />

@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "./static/css/main.9f12e229.chunk.css",
-    "main.js": "./static/js/main.7b85f328.chunk.js",
-    "main.js.map": "./static/js/main.7b85f328.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.9fca01eb.js",
-    "runtime-main.js.map": "./static/js/runtime-main.9fca01eb.js.map",
+    "main.css": "./static/css/main.f7c369d6.chunk.css",
+    "main.js": "./static/js/main.b9d6e323.chunk.js",
+    "main.js.map": "./static/js/main.b9d6e323.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0b891c0d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0b891c0d.js.map",
     "static/css/2.0a9ec390.chunk.css": "./static/css/2.0a9ec390.chunk.css",
-    "static/js/2.3846e32e.chunk.js": "./static/js/2.3846e32e.chunk.js",
-    "static/js/2.3846e32e.chunk.js.map": "./static/js/2.3846e32e.chunk.js.map",
-    "static/js/3.2e43215b.chunk.js": "./static/js/3.2e43215b.chunk.js",
-    "static/js/3.2e43215b.chunk.js.map": "./static/js/3.2e43215b.chunk.js.map",
+    "static/js/2.7d61b7f2.chunk.js": "./static/js/2.7d61b7f2.chunk.js",
+    "static/js/2.7d61b7f2.chunk.js.map": "./static/js/2.7d61b7f2.chunk.js.map",
+    "static/js/3.da20fde5.chunk.js": "./static/js/3.da20fde5.chunk.js",
+    "static/js/3.da20fde5.chunk.js.map": "./static/js/3.da20fde5.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.0a9ec390.chunk.css.map": "./static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.9f12e229.chunk.css.map": "./static/css/main.9f12e229.chunk.css.map",
-    "static/js/2.3846e32e.chunk.js.LICENSE.txt": "./static/js/2.3846e32e.chunk.js.LICENSE.txt",
+    "static/css/main.f7c369d6.chunk.css.map": "./static/css/main.f7c369d6.chunk.css.map",
+    "static/js/2.7d61b7f2.chunk.js.LICENSE.txt": "./static/js/2.7d61b7f2.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Gelato.5fd4bccb.ttf",
     "static/media/NFT1.609ed34a.png": "./static/media/NFT1.609ed34a.png",
     "static/media/NFT2.f688b94a.png": "./static/media/NFT2.f688b94a.png",
-    "static/media/Main.css": "./static/media/bg-leave-image.31ca440e.png",
+    "static/media/Main.css": "./static/media/welcome-page-bg.6cf9099b.png",
     "static/media/discord.a2b17d68.png": "./static/media/discord.a2b17d68.png",
     "static/media/mainGif.e594bd47.gif": "./static/media/mainGif.e594bd47.gif",
     "static/media/samuray-image.e23a9f8f.png": "./static/media/samuray-image.e23a9f8f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9fca01eb.js",
+    "static/js/runtime-main.0b891c0d.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.3846e32e.chunk.js",
-    "static/css/main.9f12e229.chunk.css",
-    "static/js/main.7b85f328.chunk.js"
+    "static/js/2.7d61b7f2.chunk.js",
+    "static/css/main.f7c369d6.chunk.css",
+    "static/js/main.b9d6e323.chunk.js"
   ]
 }

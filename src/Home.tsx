@@ -190,7 +190,7 @@ const Home = (props: HomeProps) => {
                 /> */}
                 <div className="leftHero position-relative d-flex flex-column justify-content-center align-items-center">
                   <a
-                    href=" https://discord.gg/Rn7HRHXKzR"
+                    href=" http://discord.gg/sKqHppcsXz"
                     className=" position-absolute w-75 py-5"
                     target="_blank"
                   >
@@ -320,32 +320,7 @@ const Home = (props: HomeProps) => {
               </div>
             </Col>
           </Row>
-          {/* <Row>
-            <Col>
-              <div id="LandingFollows">
-                <div id="followButtons">
-                  <span className="followButton">
-                    <a
-                      className="linkButton"
-                      href="https://twitter.com/llamadramaclub"
-                      target="_blank"
-                    >
-                      <button id="twitterBtn">Twitter</button>
-                    </a>
-                  </span>
-                  <span className="followButton">
-                    <a
-                      className="linkButton"
-                      href="https://discord.gg/pZbPMA3r"
-                      target="_blank"
-                    >
-                      <button id="discordBtn"> Discord</button>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </Col>
-          </Row> */}
+          
         </Container>
       </div>
     </main>
