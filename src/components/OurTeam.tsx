@@ -1,5 +1,5 @@
-import dozerImage from "../assets/dozer-img-team.png";
-import rynImage from "../assets/ryn-team-img.png";
+import dozerImage from "../assets/NFT1.png";
+import rynImage from "../assets/NFT2.png";
 
 const OurTeam = () => {
   return (
@@ -27,7 +27,7 @@ const OurTeam = () => {
               <div className="team-card">
                 <img src={dozerImage} alt="dozerImage" />
 
-                <button>Dozer</button>
+                <button className="border-0 bg-transparent">Dozer</button>
               </div>
             </div>
 
@@ -35,7 +35,7 @@ const OurTeam = () => {
               <div className="team-card">
                 <img src={rynImage} alt="rynImage" />
 
-                <button>Ryn</button>
+                <button className="border-0 bg-transparent">Ryn</button>
               </div>
             </div>
           </div>

@@ -252,7 +252,6 @@ body {
   background-image: url("../assets/bg-leave-image.png");
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -345,11 +344,11 @@ body {
 .team-card button {
   width: 100%;
   height: 70px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     92.4deg,
     rgba(255, 255, 255, 0.48) -0.65%,
     rgba(255, 255, 255, 0) 100%
-  );
+  ); */
   font-weight: 600;
   font-size: 24px;
   line-height: 131.4%;
@@ -365,11 +364,11 @@ body {
   transform: translateY(-10px);
 }
 .team-card button:hover {
-  background: linear-gradient(
+  /* background: linear-gradient(
     92.4deg,
     rgba(255, 255, 255, 0.384) -0.42%,
     rgba(255, 255, 255, 0) 90%
-  );
+  ); */
 }
 
 /* FAQ SECTION STYLES  */
@@ -430,86 +429,60 @@ body {
 }
 
 /* LEAVES ANIMATIONS  */
-
-.leaves-child {
+.anim {
   position: absolute;
-  animation: float 6s linear infinite;
+  top: 0;
 }
+.anim span {
+  display: inline-block;
 
-.leaves-child:nth-child(1) {
-  animation-delay: 1.5s;
-  left: 45%;
-  top: 50%;
+  height: 75px;
+  width: 75px;
+
+  margin: -280px 40px 54px -34px;
+  animation: anim 10s infinite linear;
 }
-
-.leaves-child:nth-child(2) {
-  animation-delay: 3s;
-  left: 66%;
-  top: 10%;
+.anim span:nth-child(7h) {
+  animation-delay: 2.5s;
 }
-
-.leaves-child:nth-child(3) {
+.anim span:nth-child(7n-1) {
+  animation-delay: 1s;
+}
+.anim span:nth-child(7n-2) {
+  animation-delay: 3.5s;
+}
+.anim span:nth-child(7n-3) {
   animation-delay: 5s;
-  left: 77%;
-  bottom: 36%;
 }
-
-.leaves-child:nth-child(4) {
+.anim span:nth-child(7n-4) {
+  animation-delay: 1.5s;
+}
+.anim span:nth-child(7n-5) {
   animation-delay: 7s;
-  right: 80%;
-  bottom: 32%;
 }
-.leaves-child:nth-child(5) {
-  animation-delay: 9s;
-  right: 90%;
-  top: 38%;
+.anim span:nth-child(7n-6) {
+  animation-delay: 9.5s;
 }
-.leaves-child:nth-child(6) {
-  animation-delay: 10s;
-  right: 26%;
-  top: 77%;
-}
-.leaves-child:nth-child(7) {
-  animation-delay: 8s;
-  right: 30%;
-  bottom: 44%;
-}
-.leaves-child:nth-child(8) {
-  animation-delay: 6s;
-  right: 50%;
-  bottom: 16%;
-}
-.leaves-child:nth-child(9) {
-  animation-delay: 4s;
-  left: 72%;
-  bottom: 37%;
-}
-.leaves-child:nth-child(10) {
-  animation-delay: 2s;
-  right: 66%;
-  top: 11%;
-}
-.leaves-child:nth-child(11) {
-  animation-delay: 12;
-  right: 55%;
-  top: 41%;
-}
-.leaves-child:nth-child(12) {
-  animation-delay: 13;
-  right: 69%;
-  bottom: 55%;
-}
-
-@keyframes float {
-  from {
-    transform: rotate(0deg) translate3d(5px, 0, 0) rotate(0deg);
+@keyframes anim {
+  0% {
+    width: 75px;
+    height: 75px;
+    opacity: 1;
+    transform: translate(0, 0px) rotateZ(0deg);
   }
-
-  to {
-    transform: rotate(360deg) translate3d(5px, 0, 0) rotate(-360deg);
+  75% {
+    width: 75px;
+    height: 75px;
+    opacity: 1;
+    transform: translate(100px, 900px) rotateZ(270deg);
+  }
+  100% {
+    width: 75px;
+    height: 75px;
+    opacity: 0;
+    transform: translate(150px, 900px) rotateZ(360deg);
   }
 }
-
 @media (max-width: 576px) {
   :root {
     /*=========== TYPOGRAPHY ROOTS CSS =========*/

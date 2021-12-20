@@ -132,7 +132,7 @@ const App = () => {
         </ConnectionProvider>
       </ThemeProvider>
 
-      <About />
+      {/* <About /> */}
       {/* <Examples
         firstPicture={firstPic}
         secondPicture={secondPic}

@@ -23,42 +23,44 @@ const Roadmap = () => {
         className="roadmap-section  position-relative  py-4 py-sm-5"
       >
         {/* <div className="roadmap-leaves-image"></div> */}
-        <span className="leaves-child d-none d-lg-block">
-          <img src={Leave1} alt="Leave1" />
-        </span>
-        <span className="leaves-child d-none d-lg-block">
-          <img src={Leave2} alt="Leave2" />
-        </span>
-        <span className="leaves-child d-none d-sm-block">
-          <img src={Leave3} alt="Leave3" />
-        </span>
-        <span className="leaves-child d-none d-md-block">
-          <img src={Leave4} alt="Leave4" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave5} alt="Leave5" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave6} alt="Leave6" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave7} alt="Leave7" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave8} alt="Leave8" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave9} alt="Leave9" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave10} alt="Leave10" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave11} alt="Leave11" />
-        </span>
-        <span className="leaves-child">
-          <img src={Leave12} alt="Leave12" />
-        </span>
+        <div className="anim">
+          <span className=" d-none d-lg-block">
+            <img src={Leave1} alt="Leave1" />
+          </span>
+          <span className="">
+            <img src={Leave2} alt="Leave2" />
+          </span>
+          <span className="">
+            <img src={Leave3} alt="Leave3" />
+          </span>
+          <span className="">
+            <img src={Leave4} alt="Leave4" />
+          </span>
+          <span className="">
+            <img src={Leave5} alt="Leave5" />
+          </span>
+          <span className="">
+            <img src={Leave6} alt="Leave6" />
+          </span>
+          <span className="">
+            <img src={Leave7} alt="Leave7" />
+          </span>
+          <span className="">
+            <img src={Leave8} alt="Leave8" />
+          </span>
+          <span className="">
+            <img src={Leave9} alt="Leave9" />
+          </span>
+          <span className="">
+            <img src={Leave10} alt="Leave10" />
+          </span>
+          <span className="">
+            <img src={Leave11} alt="Leave11" />
+          </span>
+          <span className="">
+            <img src={Leave12} alt="Leave12" />
+          </span>
+        </div>
 
         <div className="container pt-4 z-1 position-relative">
           <h1 className="text-center text-white fs-xxl fs-normal">Roadmap</h1>
