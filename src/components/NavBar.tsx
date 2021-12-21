@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "../styles/navbar.css";
-import Logo from "../assets/headerLogo.png";
+import Logo from "../assets/logo.png";
 //import react responsive
 import { useMediaQuery } from "react-responsive";
 //import logos
@@ -35,7 +35,6 @@ const NavBar = () => {
             <div className="container-fluid">
               <a className="navbar-brand logo text-white" href="#">
                 <img src={Logo} alt="" className="me-sm-3 me-1" />
-                llamadramaclub
               </a>
               {/* <button
                 className="navbar-toggler bg-white"
@@ -106,7 +105,7 @@ const NavBar = () => {
                   </li>
                   <li className=" nav-item mt-3 mt-xl-0">
                     <a
-                      href="https://discord.gg/pZbPMA3r"
+                      href="http://discord.gg/sKqHppcsXz"
                       target="_blank"
                       className="ms-3 d-flex justify-content-center align-items-center text-white discord-btn"
                     >

@@ -5,10 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 //add bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
+import WelcomePage from "./WelcomePage";
+import "./styles/Main.css";
+import AppRoutes from "./AppRoutes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppRoutes />
   </React.StrictMode>,
   document.getElementById("root")
 );

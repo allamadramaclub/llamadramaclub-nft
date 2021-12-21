@@ -5,7 +5,6 @@ import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 //my imports
 import "./styles/landing.css";
-import "./styles/Main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import MainImage from "./assets/13.png";
 import MainImage from "./assets/mainGif.gif";
@@ -189,7 +188,14 @@ const Home = (props: HomeProps) => {
                   id="landingImage"
                   src=" https://www.youtube.com/embed/l_1UmPnSEEs"
                 /> */}
-                <div className="leftHero">
+                <div className="leftHero position-relative d-flex flex-column justify-content-center align-items-center">
+                  <a
+                    href=" http://discord.gg/sKqHppcsXz"
+                    className=" position-absolute w-75 py-5"
+                    target="_blank"
+                  >
+                    <div className="py-5"></div>
+                  </a>
                   <img src={DiscordImg} className="w-100" alt="" />
                   <h1 className="fs-semibold text-white  fs-xl text-center ">
                     Letting the llamas loose January 2022!
@@ -314,32 +320,7 @@ const Home = (props: HomeProps) => {
               </div>
             </Col>
           </Row>
-          {/* <Row>
-            <Col>
-              <div id="LandingFollows">
-                <div id="followButtons">
-                  <span className="followButton">
-                    <a
-                      className="linkButton"
-                      href="https://twitter.com/llamadramaclub"
-                      target="_blank"
-                    >
-                      <button id="twitterBtn">Twitter</button>
-                    </a>
-                  </span>
-                  <span className="followButton">
-                    <a
-                      className="linkButton"
-                      href="https://discord.gg/pZbPMA3r"
-                      target="_blank"
-                    >
-                      <button id="discordBtn"> Discord</button>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </Col>
-          </Row> */}
+          
         </Container>
       </div>
     </main>

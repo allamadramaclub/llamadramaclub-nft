@@ -1,5 +1,6 @@
 import { DiscordIcon, TwitterIcon, YoutubeIcon } from "./Icons";
 
+
 const Footer = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
-            href="https://discord.com/invite/Rn7HRHXKzR"
+            href="http://discord.gg/sKqHppcsXz"
             className="mx-3 mx-sm-4"
           >
             <DiscordIcon />

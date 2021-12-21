@@ -9,12 +9,14 @@
   background-color: #022446;
   color: white;
 }
+
 .faqTextContainer {
   margin-bottom: 3em;
   margin-top: 3em;
   background-color: #061d35;
   padding: 1em;
 }
+
 #faqCompTitle {
   font-size: 5em;
   color: white;
@@ -31,4 +33,9 @@
 .faqText {
   font-weight: 400;
   font-size: 2em;
+}
+
+.faq-section {
+  background-image: url(../assets/starsimg.png);
+  background-size: cover;
 }

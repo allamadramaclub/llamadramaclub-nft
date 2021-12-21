@@ -1,5 +1,7 @@
 import "../styles/faq.css";
 import CirclImage from "../assets/2-round-circles.png";
+import AstroImg from "../assets/astronaut.png";
+import StarsImg from "../assets/starsimg.png";
 const FAQ = () => {
   return (
     <>
@@ -30,19 +32,19 @@ const FAQ = () => {
               </div>
             </div>
             <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
-              {" "}
+              
               <div>
                 <h4>How many NFTs can I buy?</h4>
                 <p>
                   There is no limit during live mint. We believe that our
                   mission will attract the kind of investors that want to double
                   down on us. Our goal is to show investors they made the right
-                  choice.{" "}
+                  choice.
                 </p>
               </div>
             </div>
             <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
-              {" "}
+              
               <div>
                 <h4>Why Sol?</h4>
                 <p>
@@ -55,58 +57,14 @@ const FAQ = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="astro-section position-relative">
+<img className="position-absolute h-100 bottom-0 end-0 " src={AstroImg} alt="astronaut" />
+<img className="w-100" src={StarsImg} alt="stars"/>
+    </div>
+      </section>
     </>
-    // <div id="faqComponent">
-    //   <h1 id="faqCompTitle">FAQ</h1>
-    //   <Container>
-    //     <Row>
-    //       <div data-aos="flip-up">
-    //         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-    //           <div className="faqTextContainer">
-    //             <h2 className="faqTitle">How do I get an NFT?</h2>
-    //             <p className="faqText">
-    //               Stay updated on all social media accounts. Whitelist and live
-    //               mint details will be announced with direct link to the action.
-    //             </p>
-    //           </div>
-    //         </Col>{" "}
-    //       </div>
-    //       <div data-aos="flip-up">
-    //         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-    //           <div className="faqTextContainer">
-    //             <h2 className="faqTitle">When will the llamas be available?</h2>
-    //             <p className="faqText">January 2022</p>
-    //           </div>
-    //         </Col>{" "}
-    //       </div>
-    //       <div data-aos="flip-up">
-    //         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-    //           <div className="faqTextContainer">
-    //             <h2 className="faqTitle">How many NFTs can I buy?</h2>
-    //             <p className="faqText">
-    //               There is no limit during live mint. We believe that our
-    //               mission will attract the kind of investors that want to double
-    //               down on us. Our goal is to show investors they made the right
-    //               choice.
-    //             </p>
-    //           </div>
-    //         </Col>{" "}
-    //       </div>
-    //       <div data-aos="flip-up">
-    //         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-    //           <div className="faqTextContainer">
-    //             <h2 className="faqTitle">Why Sol?</h2>
-    //             <p className="faqText">
-    //               Simple… Value. LDC is a project that will kick butt in the
-    //               video game, art, and animation realms. The fractional gas fees
-    //               allow us to give you more value for your investment.
-    //             </p>
-    //           </div>
-    //         </Col>{" "}
-    //       </div>
-    //     </Row>{" "}
-    //   </Container>
-    // </div>
+    
   );
 };
 
