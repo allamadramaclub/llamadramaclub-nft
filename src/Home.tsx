@@ -11,14 +11,10 @@ import MainImage from "./assets/mainGif.gif";
 import DiscordImg from "./assets/discord.png";
 import WalletImg from "./assets/connectWallet.png";
 import { Container, Row, Col } from "react-bootstrap";
-
 import * as anchor from "@project-serum/anchor";
-
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
-
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
-
 import {
   CandyMachine,
   awaitTransactionSignatureConfirmation,
@@ -26,13 +22,9 @@ import {
   mintOneToken,
   shortenAddress,
 } from "./candy-machine";
-
 const ConnectButton = styled(WalletDialogButton)``;
-
 const CounterText = styled.span``; // add your styles here
-
 const MintContainer = styled.div``; // add your styles here
-
 const MintButton = styled(Button)``; // add your styles here
 console.log(MintContainer, "mint Container");
 export interface HomeProps {
@@ -43,32 +35,25 @@ export interface HomeProps {
   treasury: anchor.web3.PublicKey;
   txTimeout: number;
 }
-
 const Home = (props: HomeProps) => {
   const [balance, setBalance] = useState<number>();
   const [isActive, setIsActive] = useState(false); // true when countdown completes
   const [isSoldOut, setIsSoldOut] = useState(false); // true when items remaining is zero
   const [isMinting, setIsMinting] = useState(false); // true when user got to press MINT
-
   const [itemsAvailable, setItemsAvailable] = useState(0);
   const [itemsRedeemed, setItemsRedeemed] = useState(0);
   const [itemsRemaining, setItemsRemaining] = useState(0);
-
   const [alertState, setAlertState] = useState<AlertState>({
     open: false,
     message: "",
     severity: undefined,
   });
-
   const [startDate, setStartDate] = useState(new Date(props.startDate));
-
   const wallet = useAnchorWallet();
   const [candyMachine, setCandyMachine] = useState<CandyMachine>();
-
   const refreshCandyMachineState = () => {
     (async () => {
       if (!wallet) return;
-
       const {
         candyMachine,
         goLiveDate,
@@ -80,17 +65,14 @@ const Home = (props: HomeProps) => {
         props.candyMachineId,
         props.connection
       );
-
       setItemsAvailable(itemsAvailable);
       setItemsRemaining(itemsRemaining);
       setItemsRedeemed(itemsRedeemed);
-
       setIsSoldOut(itemsRemaining === 0);
       setStartDate(goLiveDate);
       setCandyMachine(candyMachine);
     })();
   };
-
   const onMint = async () => {
     try {
       setIsMinting(true);
@@ -101,7 +83,6 @@ const Home = (props: HomeProps) => {
           wallet.publicKey,
           props.treasury
         );
-
         const status = await awaitTransactionSignatureConfirmation(
           mintTxId,
           props.txTimeout,
@@ -109,7 +90,6 @@ const Home = (props: HomeProps) => {
           "singleGossip",
           false
         );
-
         if (!status?.err) {
           setAlertState({
             open: true,
@@ -142,7 +122,6 @@ const Home = (props: HomeProps) => {
           message = `Minting period hasn't started yet.`;
         }
       }
-
       setAlertState({
         open: true,
         message,
@@ -157,7 +136,6 @@ const Home = (props: HomeProps) => {
       refreshCandyMachineState();
     }
   };
-
   useEffect(() => {
     (async () => {
       if (wallet) {
@@ -166,15 +144,13 @@ const Home = (props: HomeProps) => {
       }
     })();
   }, [wallet, props.connection]);
-
   useEffect(refreshCandyMachineState, [
     wallet,
     props.candyMachineId,
     props.connection,
   ]);
-
   return (
-    <main>
+    <main className="flex-grow-1 d-flex flex-colum align-items-center">
       <div id="landingPage" className="py-4 py-sm-5 mb-5">
         <Container id="landingContainer">
           <Row className="justify-content-between align-items-center">
@@ -226,7 +202,6 @@ const Home = (props: HomeProps) => {
                     className="w-100 flip-horizontal"
                     alt=""
                   />
-
                   {/* </div> */}
                   {/* minting starts here */}
                   <div className="mint-container">
@@ -236,29 +211,24 @@ const Home = (props: HomeProps) => {
                         {shortenAddress(wallet.publicKey.toBase58() || "")}
                       </p>
                     )}
-
                     {wallet && (
                       <p className="mintingTexts">
                         Balance: {(balance || 0).toLocaleString()} SOL
                       </p>
                     )}
-
                     {wallet && (
                       <p className="mintingTexts">
                         Total Available: {itemsAvailable}
                       </p>
                     )}
-
                     {wallet && (
                       <p className="mintingTexts">Redeemed: {itemsRedeemed}</p>
                     )}
-
                     {wallet && (
                       <p className="mintingTexts">
                         Remaining: {itemsRemaining}
                       </p>
                     )}
-
                     <MintContainer>
                       {!wallet ? (
                         <ConnectButton
@@ -298,7 +268,6 @@ const Home = (props: HomeProps) => {
                         </MintButton>
                       )}
                     </MintContainer>
-
                     <Snackbar
                       open={alertState.open}
                       autoHideDuration={6000}
@@ -320,19 +289,16 @@ const Home = (props: HomeProps) => {
               </div>
             </Col>
           </Row>
-          
         </Container>
       </div>
     </main>
   );
 };
-
 interface AlertState {
   open: boolean;
   message: string;
   severity: "success" | "info" | "warning" | "error" | undefined;
 }
-
 const renderCounter = ({ days, hours, minutes, seconds, completed }: any) => {
   return (
     <CounterText>
@@ -340,5 +306,4 @@ const renderCounter = ({ days, hours, minutes, seconds, completed }: any) => {
     </CounterText>
   );
 };
-
 export default Home;

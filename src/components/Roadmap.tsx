@@ -117,7 +117,7 @@ const Roadmap = () => {
             </div>
           </div>
           <img
-            className="samuray-roadmap-img d-none d-lg-block"
+            className="samuray-roadmap-img "
             src={samurayImage}
             alt="samurayImage"
           />

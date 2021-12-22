@@ -1,5 +1,5 @@
 import "./MintApp.css";
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
 //my imports
 import Button from "react-bootstrap/Button";
 import Landing from "./components/Landing";
@@ -26,9 +26,7 @@ import ninthPic from "./assets/92.png";
 import tenthPic from "./assets/97.png";
 import eleventhPic from "./assets/2016.png";
 import twelvethPic from "./assets/2017.png";
-
 import Home from "./Home";
-
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -39,38 +37,28 @@ import {
   getSolletWallet,
   getSolletExtensionWallet,
 } from "@solana/wallet-adapter-wallets";
-
 import {
   ConnectionProvider,
   WalletProvider,
 } from "@solana/wallet-adapter-react";
-
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 import OurTeam from "./components/OurTeam";
 import Footer from "./components/Footer";
-
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
 );
-
 const config = new anchor.web3.PublicKey(
   process.env.REACT_APP_CANDY_MACHINE_CONFIG!
 );
-
 const candyMachineId = new anchor.web3.PublicKey(
   process.env.REACT_APP_CANDY_MACHINE_ID!
 );
-
 const network = process.env.REACT_APP_SOLANA_NETWORK as WalletAdapterNetwork;
-
 const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST!;
 const connection = new anchor.web3.Connection(rpcHost);
-
 const startDateSeed = parseInt(process.env.REACT_APP_CANDY_START_DATE!, 10);
-
 const txTimeout = 30000; // milliseconds (confirm this works for your project)
-
 const theme = createTheme({
   palette: {
     type: "dark",
@@ -95,10 +83,14 @@ const theme = createTheme({
     },
   },
 });
-
 const App = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
-
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const wallets = useMemo(
     () => [
       getPhantomWallet(),
@@ -109,29 +101,28 @@ const App = () => {
     ],
     []
   );
-
   return (
     <div id="">
-      <NavBar />
-      {/* <Banner /> */}
-
-      <ThemeProvider theme={theme}>
-        <ConnectionProvider endpoint={endpoint}>
-          <WalletProvider wallets={wallets} autoConnect={true}>
-            <WalletDialogProvider>
-              <Home
-                candyMachineId={candyMachineId}
-                config={config}
-                connection={connection}
-                startDate={startDateSeed}
-                treasury={treasury}
-                txTimeout={txTimeout}
-              />
-            </WalletDialogProvider>
-          </WalletProvider>
-        </ConnectionProvider>
-      </ThemeProvider>
-
+      <div className="d-flex min-h-screen flex-column ">
+        <NavBar />
+        {/* <Banner /> */}
+        <ThemeProvider theme={theme}>
+          <ConnectionProvider endpoint={endpoint}>
+            <WalletProvider wallets={wallets} autoConnect={true}>
+              <WalletDialogProvider>
+                <Home
+                  candyMachineId={candyMachineId}
+                  config={config}
+                  connection={connection}
+                  startDate={startDateSeed}
+                  treasury={treasury}
+                  txTimeout={txTimeout}
+                />
+              </WalletDialogProvider>
+            </WalletProvider>
+          </ConnectionProvider>
+        </ThemeProvider>
+      </div>
       {/* <About /> */}
       {/* <Examples
         firstPicture={firstPic}
@@ -144,7 +135,6 @@ const App = () => {
       {/* <MiddlePart /> */}
       <Roadmap />
       <OurTeam />
-
       {/* <Examples
         firstPicture={seventhPic}
         secondPicture={eighthPic}
@@ -162,5 +152,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
