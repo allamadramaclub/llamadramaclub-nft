@@ -62,10 +62,10 @@ const Roadmap = () => {
           </span>
         </div>
 
-        <div className="container pt-4 z-1 position-relative">
+        <div className="container pt-4 pb-5 mb-5 z-1 position-relative">
           <h1 className="text-center text-white fs-xxl fs-normal">Roadmap</h1>
           <div className="row  pt-5">
-            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12 order-1 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <h3>Whitelist</h3>
               <p className="max-w-246">
                 250 collectors will be able to grab llamas at a special
@@ -73,7 +73,7 @@ const Roadmap = () => {
                 released.
               </p>
             </div>
-            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12 order-2 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
                 <h3>Live Mint</h3>
                 <p className="max-w-200">
@@ -82,7 +82,7 @@ const Roadmap = () => {
                 </p>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12 order-3 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
                 <h3>Games, Games, Games!!!!</h3>
                 <p className="max-w-289">
@@ -95,7 +95,7 @@ const Roadmap = () => {
               </div>
             </div>
 
-            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12 order-lg-4 order-5 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
                 <h3>Animated short films</h3>
                 <p className="max-w-281">
@@ -107,7 +107,7 @@ const Roadmap = () => {
               </div>
             </div>
 
-            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12 order-lg-5 order-4  col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
                 <h3>TESLA GIVEAWAY!!!!!</h3>
                 <p className="max-w-200">
