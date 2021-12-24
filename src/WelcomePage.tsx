@@ -53,10 +53,10 @@ const WelcomePage = () => {
                   </h1>
 
                   <p className="me-0 me-lg-4">
-                    The first NFT project that plans to go fully mainstream with
-                    animated short films and video games. One NFT allows you
-                    access to the game world with freebies and early access to
-                    animated short films.
+                    The first NFT project that plans to go fully mainstream
+                    with animated short films. One NFT allows you access to the
+                    llamaverse and includes freebies and early access to animated
+                    short films.
                   </p>
                   <Link to={`/home`}>Enter</Link>
                 </div>

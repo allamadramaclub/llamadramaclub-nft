@@ -84,7 +84,7 @@ const Roadmap = () => {
             </div>
             <div className="col-12 order-3 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
-                <h3>Games, Games, Games!!!!</h3>
+                <h3> &nbsp; </h3>
                 <p className="max-w-289">
                   At 75%, we plan on launching development of our game world. We
                   cannot express enough how diverse oour game launches will be.
