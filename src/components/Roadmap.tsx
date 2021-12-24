@@ -82,20 +82,11 @@ const Roadmap = () => {
                 </p>
               </div>
             </div>
-            <div className="col-12 order-3 col-sm-6 col-lg-4 mb-3 mb-sm-5">
-              <div>
-                <h3> &nbsp; </h3>
-                <p className="max-w-289">
-                  At 75%, we plan on launching development of our game world. We
-                  cannot express enough how diverse oour game launches will be.
-                  Our goal is to create something for everyone to enjoy every
-                  quarter. NFT holders will instantly gain freebies in games
-                  once launched.
-                </p>
-              </div>
+            <div className="col-12  order-3 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            
             </div>
 
-            <div className="col-12 order-lg-4 order-5 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
                 <h3>Animated short films</h3>
                 <p className="max-w-281">
@@ -107,7 +98,7 @@ const Roadmap = () => {
               </div>
             </div>
 
-            <div className="col-12 order-lg-5 order-4  col-sm-6 col-lg-4 mb-3 mb-sm-5">
+            <div className="col-12  col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
                 <h3>TESLA GIVEAWAY!!!!!</h3>
                 <p className="max-w-200">
