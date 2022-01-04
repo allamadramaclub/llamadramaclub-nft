@@ -141,6 +141,48 @@ const App = () => {
         <span className="">
           <img src={Leave5} alt="Leave5" />
         </span>
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>
+        <span className="">
+          <img src={Leave2} alt="Leave2" />
+        </span>
+        <span className="">
+          <img src={Leave3} alt="Leave3" />
+        </span>
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>{" "}
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>
+        <span className="">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="">
+          <img src={Leave5} alt="Leave5" />
+        </span>{" "}
+        <span className="">
+          <img src={Leave3} alt="Leave3" />
+        </span>
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>{" "}
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>
+        <span className="">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="">
+          <img src={Leave5} alt="Leave5" />
+        </span>
       </div>
       <div className="d-flex min-h-screen flex-column ">
         <NavBar />

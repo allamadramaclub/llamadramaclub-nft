@@ -1,10 +1,9 @@
 import { DiscordIcon, TwitterIcon, YoutubeIcon } from "./Icons";
 
-
 const Footer = () => {
   return (
     <>
-      <div className="footer-section">
+      <div className="footer-section overflow-hidden position-relative">
         <div className="d-flex social-icons">
           <a
             target="_blank"

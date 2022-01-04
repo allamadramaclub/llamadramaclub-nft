@@ -484,6 +484,7 @@ body {
   height: 100%;
   width: 100%;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .anim span {
@@ -493,46 +494,98 @@ body {
   width: 75px;
   top: 0;
   opacity: 0;
-  animation: anim 80s infinite linear;
+  animation: anim 90s infinite linear;
   z-index: 0;
   pointer-events: none;
 }
 
-.anim span:nth-child(9n) {
-  animation-delay: 2.5s;
+.anim span:nth-of-type(1) {
   left: 80%;
-}
-
-.anim span:nth-child(7n-1) {
-  left: 80%;
-  animation-delay: 1s;
-}
-
-.anim span:nth-child(7n-2) {
-  left: 75%;
-  animation-delay: 3.5s;
-}
-
-.anim span:nth-child(7n-3) {
-  left: 60%;
-
-  animation-delay: 5s;
-}
-
-.anim span:nth-child(7n-4) {
-  left: 50%;
-
   animation-delay: 1.5s;
 }
-
-.anim span:nth-child(7n-5) {
-  left: 40%;
-  animation-delay: 7s;
+.anim span:nth-of-type(2) {
+  animation-delay: 12.5s;
+  left: 90%;
 }
-
-.anim span:nth-child(7n-6) {
-  left: 30%;
+.anim span:nth-of-type(3) {
+  animation-delay: 37.5s;
+  left: 70%;
+}
+.anim span:nth-of-type(4) {
+  animation-delay: 29.5s;
+  left: 60%;
+}
+.anim span:nth-of-type(5) {
+  animation-delay: 11.5s;
+  left: 60%;
+}
+.anim span:nth-of-type(6) {
+  animation-delay: 19.5s;
+  left: 49%;
+}
+.anim span:nth-of-type(7) {
+  animation-delay: 37.5s;
+  left: 45%;
+}
+.anim span:nth-of-type(8) {
+  animation-delay: 26.5s;
+  left: 37%;
+}
+.anim span:nth-of-type(9) {
+  animation-delay: 43.5s;
+  left: 87%;
+}
+.anim span:nth-of-type(10) {
+  animation-delay: 17.5s;
+  left: 34%;
+}
+.anim span:nth-of-type(11) {
+  animation-delay: 19.5s;
+  left: 44%;
+}
+.anim span:nth-of-type(12) {
+  animation-delay: 43.5s;
+  left: 65%;
+}
+.anim span:nth-of-type(13) {
+  animation-delay: 10.5s;
+  left: 24%;
+}
+.anim span:nth-of-type(14) {
+  animation-delay: 45.5s;
+  left: 31%;
+}
+.anim span:nth-of-type(15) {
+  animation-delay: 56.5s;
+  left: 12%;
+}
+.anim span:nth-of-type(16) {
+  animation-delay: 78.5s;
+  left: 67%;
+}
+.anim span:nth-of-type(17) {
+  animation-delay: 64.5s;
+  left: 18%;
+}
+.anim span:nth-of-type(18) {
+  animation-delay: 57.5s;
+  left: 75%;
+}
+.anim span:nth-of-type(19) {
+  animation-delay: 3.5s;
+  left: 56%;
+}
+.anim span:nth-of-type(20) {
+  animation-delay: 73.5s;
+  left: 64%;
+}
+.anim span:nth-of-type(21) {
+  animation-delay: 1.5s;
+  left: 5%;
+}
+.anim span:nth-of-type(22) {
   animation-delay: 9.5s;
+  left: 10%;
 }
 
 @keyframes anim {
@@ -549,7 +602,7 @@ body {
     height: 75px;
     opacity: 1;
     top: 80%;
-    transform: translate(100px, 1800px) rotateZ(270deg);
+    transform: translate(100px, 0px) rotateZ(270deg);
   }
 
   100% {
@@ -557,7 +610,7 @@ body {
     height: 75px;
     opacity: 0;
     top: 100%;
-    transform: translate(150px, 1800px) rotateZ(360deg);
+    transform: translate(150px, 0px) rotateZ(360deg);
   }
 }
 
@@ -690,4 +743,9 @@ body {
   font-size: var(--fs-md);
   line-height: 24px;
   color: var(--grey-900);
+}
+
+.astro {
+  overflow: hidden;
+  background: black;
 }

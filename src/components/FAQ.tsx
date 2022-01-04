@@ -55,7 +55,7 @@ const FAQ = () => {
           </div>
         </div>
       </section>
-      <section className="overflow-hidden">
+      <section className="overflow-hidden position-relative astro">
         <div className="astro-section position-relative">
           <img
             className="position-absolute h-100 bottom-0 end-0 "
