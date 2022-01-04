@@ -41,10 +41,23 @@ import {
   ConnectionProvider,
   WalletProvider,
 } from "@solana/wallet-adapter-react";
+import Leave1 from "./assets/leaves-img/leave-1.png";
+import Leave2 from "./assets/leaves-img/leave-2.png";
+import Leave3 from "./assets/leaves-img/leave-3.png";
+import Leave4 from "./assets/leaves-img/leave-4.png";
+import Leave5 from "./assets/leaves-img/leave-5.png";
+import Leave6 from "./assets/leaves-img/leave-6.png";
+import Leave7 from "./assets/leaves-img/leave-7.png";
+import Leave8 from "./assets/leaves-img/leave-8.png";
+import Leave9 from "./assets/leaves-img/leave-9.png";
+import Leave10 from "./assets/leaves-img/leave-10.png";
+import Leave11 from "./assets/leaves-img/leave-11.png";
+import Leave12 from "./assets/leaves-img/leave-12.png";
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 import OurTeam from "./components/OurTeam";
 import Footer from "./components/Footer";
+import Inevitable from "./components/Inevitable";
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
 );
@@ -102,7 +115,33 @@ const App = () => {
     []
   );
   return (
-    <div id="">
+    <div className="position-relative">
+      <div className="anim">
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>
+        <span className="">
+          <img src={Leave2} alt="Leave2" />
+        </span>
+        <span className="">
+          <img src={Leave3} alt="Leave3" />
+        </span>
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>{" "}
+        <span className=" d-none d-lg-block">
+          <img src={Leave1} alt="Leave1" />
+        </span>
+        <span className="">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="">
+          <img src={Leave4} alt="Leave4" />
+        </span>
+        <span className="">
+          <img src={Leave5} alt="Leave5" />
+        </span>
+      </div>
       <div className="d-flex min-h-screen flex-column ">
         <NavBar />
         {/* <Banner /> */}
@@ -134,6 +173,7 @@ const App = () => {
       /> */}
       {/* <MiddlePart /> */}
       <Roadmap />
+      <Inevitable />
       <OurTeam />
       {/* <Examples
         firstPicture={seventhPic}

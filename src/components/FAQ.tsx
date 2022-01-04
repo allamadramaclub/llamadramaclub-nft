@@ -32,7 +32,6 @@ const FAQ = () => {
               </div>
             </div>
             <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
-              
               <div>
                 <h4>How many NFTs can I buy?</h4>
                 <p>
@@ -44,7 +43,6 @@ const FAQ = () => {
               </div>
             </div>
             <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
-              
               <div>
                 <h4>Why Sol?</h4>
                 <p>
@@ -57,14 +55,17 @@ const FAQ = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="overflow-hidden">
         <div className="astro-section position-relative">
-<img className="position-absolute h-100 bottom-0 end-0 " src={AstroImg} alt="astronaut" />
-<img className="w-100" src={StarsImg} alt="stars"/>
-    </div>
+          <img
+            className="position-absolute h-100 bottom-0 end-0 "
+            src={AstroImg}
+            alt="astronaut"
+          />
+          <img className="w-100" src={StarsImg} alt="stars" />
+        </div>
       </section>
     </>
-    
   );
 };
 
