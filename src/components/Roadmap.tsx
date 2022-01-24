@@ -27,101 +27,42 @@ const Roadmap = () => {
         <div className="container pt-4 pb-5 mb-5 z-1 position-relative">
           <h1 className="text-center text-white fs-xxl fs-normal">Roadmap</h1>
           <div className="row  pt-5">
+            <div className="col-12 order-1 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+              <h3>Whitelist</h3>
+              <p className="max-w-246">
+                250 collectors will be able to grab llamas at a special
+                discounted price with 10 Mint limit. 2,500 llamas will be
+                released.
+              </p>
+            </div>
+            <div className="col-12 order-2 col-sm-6 col-lg-4 mb-3 mb-sm-5">
+              <div>
+                <h3>Live Mint</h3>
+                <p className="max-w-200">
+                  If you missed out on the whitelist, don’t worry! 7,000 more
+                  llamas will be released on launch day.
+                </p>
+              </div>
+            </div>
             <div className="col-12  order-3 col-sm-6 col-lg-4 mb-3 mb-sm-5"></div>
 
             <div className="col-12 col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
-                <h3>Q1 2021</h3>
-                <ul className="list-group">
-                <li className="list-group-item list-group-item-action  list-group-item list-group-item-action list-group-item-dark-action list-group-item list-group-item-action list-group-item-dark-dark">
-                Goal: Increase project awareness, Solidify a great community,
-                  Run a successful launch, Expand online presence</li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                  1. Secure
-                  partnerships with 4 promoters to screen possible whitelisters
-                  and attain 1,000 WL spots for Presale. 🤝
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                  2. Release Q1 and Q2
-                  roadmap. 📍
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                  3. “Ask Me Anything” for members and investors to
-                  get answers to questions they may have about the project,
-                  founders, process, etc. 🎙 
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                  4. Grow the community organically
-                  with the help of influencers and members of community. Our
-                  belief has always been to provide open access from any member
-                  of LDC to any of the founders, moderators and alike to
-                  increase camaraderie. Transparency, trust and passion are a
-                  few things that will separate this project from most.This
-                  first phase of the LDC universe will be about finding people
-                  who believe in the entire universe we have conceived as much
-                  as we do. 🌎
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                  5. Launch Presale on 24th and 25th of January
-                  tentatively. 🚀
-                  </li> <li className="list-group-item list-group-item-action list-group-item-dark">
-                  6. Secure parternships with 8-10 of the
-                  biggest and best Verified promoters/influencers on January
-                  25th to build hype for public sale. Goal is reach an audience
-                  of close to 1MILLION to help sell out the project and start
-                  work immediately on the next projects! 🤝
-                  </li> <li className="list-group-item list-group-item-action list-group-item-dark">
-                  7. Launch Public
-                  sale on 27th of January. 🚀🚀
-                  </li><li className="list-group-item list-group-item-action list-group-item-dark">
-                  8. Game Dev has begun! We
-                  promised we would start development at 75% but we couldn’t
-                  help ourselves! So we are delivering sooner than later. 🎮 9.
-                  LDCpresents 2 minute preview. LDCpresents is one of two
-                  formidable branches of LDC brand. 📺 10. Merch announcements.
-                  (Merch drop will be in Q2) 👕👚
-                  </li>
-                </ul>
+                <h3>Animated short films</h3>
                 <p className="max-w-281">
-               
+                  We aren’t called the drama club for nothing. Llamadramaclub
+                  plans on entertaining you with animated shorts that will make
+                  you laugh, and hopefully leave you wanting more. NFT holders
+                  will gain early access to each episode before general public.
                 </p>
               </div>
             </div>
 
             <div className="col-12  col-sm-6 col-lg-4 mb-3 mb-sm-5">
               <div>
-                <h3>Q2 2022 </h3>
-                <ul className="list-group">
-                <li className="list-group-item list-group-item-action  list-group-item list-group-item-action  list-group-item list-group-item-action list-group-item-dark-dark">
-                Goal: Enter the metaverse, LDC proposal to Mainstream media
-                  powerhouses, Release Merch 2. 6 Episodes of our LDCpresents
-                  pilot project will be released for NFT holders to access
-                  first. And then released on website for community to enjoy.📺</li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                    1. 2nd Quarter will provide us with much more funding to
-                    create our LDC space in the metaverse. We will open up
-                    questions to LDC community for this segment as we want this
-                    metaverse to be a space designed by the community and for
-                    the community. 🌎
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                    2. 6 Episodes of our LDCpresents pilot project will be
-                    released for NFT holders to access first. And then released
-                    on website for community to enjoy.📺
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                    3. Release 2 batches of merch. 👕👚
-                  </li>
-                  <li className="list-group-item list-group-item-action list-group-item-dark">
-                  4. Spin off: Goblin and Duck. Release preview for pilot
-                  episode of both Goblins’ and ducks’ series. 🔥 5. Release 3
-                  NFT projects: Game utility NFT, NFT collectible collection,
-                  Goblin and Duck NFTs. 🚀📈🌎
-                  </li>
-                </ul>
+                <h3>TESLA GIVEAWAY!!!!!</h3>
                 <p className="max-w-200">
-                 
-                
+                  That’s right! At 100% We will be giving away a Tesla!
                 </p>
               </div>
             </div>
