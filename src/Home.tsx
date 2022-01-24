@@ -28,18 +28,18 @@ import MainImage from "./assets/mainGif.gif";
 import DiscordImg from "./assets/discord.png";
 import WalletImg from "./assets/connectWallet.png";
 const ConnectButton = styled(WalletDialogButton)`
-transition: 0.3s ease;
-border: 2px solid #ff6900;
-background: #ff6900 !important;
-border-radius: 64px !important;
-width: 289.85px !important;
-height: 70.18px !important;
-display: flex !important;
-justify-content: center !important;
-align-items: center !important;
-font-weight: 600 !important;
-font-size: 28.4867px !important;
-font-family: "Montserrat" !important;
+  transition: 0.3s ease;
+  border: 2px solid #ff6900;
+  background: #ff6900 !important;
+  border-radius: 64px !important;
+  width: 289.85px !important;
+  height: 70.18px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 600 !important;
+  font-size: 23.4867px !important;
+  font-family: "Montserrat" !important;
 `;
 
 const MintContainer = styled.div``; // add your owns styles here
@@ -196,7 +196,10 @@ const Home = (props: HomeProps) => {
                     <div className="py-5"></div>
                   </a>
                   <img src={DiscordImg} className="w-100" alt="" />
-                  <h1 className="fs-semibold text-white  fs-xl text-center ">
+                  <h1
+                    className="fs-semibold text-white  fs-xl text-center"
+                    style={{ alignContent: "center" }}
+                  >
                     Letting the llamas loose January 2022!
                   </h1>
                 </div>
@@ -277,13 +280,13 @@ const Home = (props: HomeProps) => {
                             )}
                           </MintContainer>
                         </>
-                      )}<CrossMintButton
-                      collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
-                      collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
-                      collectionPhoto="<OPT_URL_TO_PHOTO_COVER>"
-                      style={{margin: "auto"}}
-                    
-                  />
+                      )}
+                      <CrossMintButton
+                        collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
+                        collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
+                        collectionPhoto="<OPT_URL_TO_PHOTO_COVER>"
+                        style={{ margin: "auto" }}
+                      />
                       {/* <CrossMintButton
           collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
           collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
@@ -296,6 +299,18 @@ const Home = (props: HomeProps) => {
               </div>
             </Col>
           </Row>
+          <Snackbar
+            open={alertState.open}
+            autoHideDuration={6000}
+            onClose={() => setAlertState({ ...alertState, open: false })}
+          >
+            <Alert
+              onClose={() => setAlertState({ ...alertState, open: false })}
+              severity={alertState.severity}
+            >
+              {alertState.message}
+            </Alert>
+          </Snackbar>
         </Container>
       </div>
     </main>

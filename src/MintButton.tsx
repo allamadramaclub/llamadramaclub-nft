@@ -16,7 +16,7 @@ display: flex !important;
 justify-content: center !important;
 align-items: center !important;
 font-weight: 600 !important;
-font-size: 28.4867px !important;
+font-size: 23.4867px !important;
 font-family: "Montserrat" !important;
 `; // add your own styles here
 
