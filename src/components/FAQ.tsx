@@ -35,10 +35,7 @@ const FAQ = () => {
               <div>
                 <h4>How many NFTs can I buy?</h4>
                 <p>
-                  There is no limit during live mint. We believe that our
-                  mission will attract the kind of NFT holders that want to double
-                  down on us. Our goal is to show our holders they made the right
-                  choice.
+                During Presale, whitelisted wallets will have a limit of 4 to mint. During public sale, there will be no limit.
                 </p>
               </div>
             </div>
