@@ -36,19 +36,19 @@ const FAQ = () => {
                 <h4>How many NFTs can I buy?</h4>
                 <p>
                   There is no limit during live mint. We believe that our
-                  mission will attract the kind of investors that want to double
-                  down on us. Our goal is to show investors they made the right
+                  mission will attract the kind of NFT holders that want to double
+                  down on us. Our goal is to show our holders they made the right
                   choice.
                 </p>
               </div>
             </div>
             <div className="col-3 mb-3 mb-sm-5 col-12 col-md-6 col-xl-3">
               <div>
-                <h4>Why Sol?</h4>
+                <h4>Why Solana?</h4>
                 <p>
                   Simple… Value. LDC is a project that will kick butt in the
                   video game, art, and animation realms. The fractional gas fees
-                  allow us to give you more value for your investment.
+                  allow us to give you more for less!
                 </p>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import "./MintApp.css";
 import { useMemo, useEffect } from "react";
+import { CrossMintProvider } from "@crossmint/client-sdk-react-ui";
 //my imports
 import Button from "react-bootstrap/Button";
 import Landing from "./components/Landing";
@@ -58,20 +59,29 @@ import { createTheme, ThemeProvider } from "@material-ui/core";
 import OurTeam from "./components/OurTeam";
 import Footer from "./components/Footer";
 import Inevitable from "./components/Inevitable";
-const treasury = new anchor.web3.PublicKey(
-  process.env.REACT_APP_TREASURY_ADDRESS!
-);
-const config = new anchor.web3.PublicKey(
-  process.env.REACT_APP_CANDY_MACHINE_CONFIG!
-);
-const candyMachineId = new anchor.web3.PublicKey(
-  process.env.REACT_APP_CANDY_MACHINE_ID!
-);
+
+const getCandyMachineId = (): anchor.web3.PublicKey | undefined => {
+  try {
+    const candyMachineId = new anchor.web3.PublicKey(
+      process.env.REACT_APP_CANDY_MACHINE_ID!,
+    );
+
+    return candyMachineId;
+  } catch (e) {
+    console.log('Failed to construct CandyMachineId', e);
+    return undefined;
+  }
+};
+
+const candyMachineId = getCandyMachineId();
 const network = process.env.REACT_APP_SOLANA_NETWORK as WalletAdapterNetwork;
 const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST!;
-const connection = new anchor.web3.Connection(rpcHost);
+const connection = new anchor.web3.Connection(rpcHost
+  ? rpcHost
+  : anchor.web3.clusterApiUrl('devnet'));
+
 const startDateSeed = parseInt(process.env.REACT_APP_CANDY_START_DATE!, 10);
-const txTimeout = 30000; // milliseconds (confirm this works for your project)
+const txTimeoutInMilliseconds = 30000;
 const theme = createTheme({
   palette: {
     type: "dark",
@@ -191,14 +201,15 @@ const App = () => {
           <ConnectionProvider endpoint={endpoint}>
             <WalletProvider wallets={wallets} autoConnect={true}>
               <WalletDialogProvider>
+              <CrossMintProvider clientId="<YOUR_CLIENT_ID>">
                 <Home
-                  candyMachineId={candyMachineId}
-                  config={config}
-                  connection={connection}
-                  startDate={startDateSeed}
-                  treasury={treasury}
-                  txTimeout={txTimeout}
+     candyMachineId={candyMachineId}
+     connection={connection}
+     startDate={startDateSeed}
+     txTimeout={txTimeoutInMilliseconds}
+     rpcHost={rpcHost}
                 />
+                 </CrossMintProvider>
               </WalletDialogProvider>
             </WalletProvider>
           </ConnectionProvider>
