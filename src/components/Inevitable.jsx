@@ -5,7 +5,7 @@ const Inevitable = () => {
     <div className="position-relative">
       <div className="container inevitable mb-5 pb-5">
         <h1 className="text-center text-white max-w-689 m-auto  fs-xxl fs-normal">
-          Why 100x Is Inevitable and How We Get There
+          What makes us so special?
         </h1>
         <div className="row pt-5 mt-5">
           <div className="col-6 col-lg-3 mb-4">
